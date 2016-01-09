@@ -31,7 +31,7 @@ try {
     // Setup a base URI so that all generated URIs include the project folder
     $di->set('url', function () {
         $url = new Url();
-        $url->setBaseUri('smzhjzx');
+        $url->setBaseUri('/smzhjzx/');
         return $url;
     });
 
